@@ -84,7 +84,6 @@ article > header > span + span {
 }
 
 article > header > span + span::before {
-    content: '@';
     margin-right: 4px;
 }
 
@@ -116,6 +115,7 @@ em {
     color: rgb(100, 100, 100);
     /*margin-right: 6px;*/
 }
+
 
 @media print {
     @page {

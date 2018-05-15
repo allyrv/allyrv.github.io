@@ -29,19 +29,19 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Alyssa Vargas"
+title: "{ Alyssa Vargas }"
+description: "Blog and website of Alyssa Vargas, blogging mainly for tech. Opinions expressed are mine."
+keywords: "vargas, alyssa, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/cleaver.png"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/bay-bridge.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -55,10 +55,12 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
+  - text: "Tough times never last, but tough people do."  
   - text: "Where’s your will to be weird?"
+  - text: "When in doubt, Google it."
+  - text: "Let's do stuff."
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/profile.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -131,22 +133,24 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
+  - image: "/img/timeline/grad.png"
+    date: "September 2012"
+    description: "Mission Accomplished"
+  - image: "/img/timeline/thinking.png"
+    date: "May 2017"
     description: "Started coding"
+    
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/killingit.png"
+  
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "allyrvargas@gmail.com"
 
 ################
 # Author Blurb #
@@ -156,8 +160,8 @@ email: "your@email.here"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb: "Alyssa Vargas is an awesome person. She lives in Oakland, where she works on two-dimensional engineering projects. In her spare time, Alyssa likes to cook."
+author_blurb_image: "/img/profile.png"
 
 ##################
 # Social Buttons #
@@ -165,15 +169,15 @@ author_blurb_image: "/img/author.png"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://www.facebook.com/allyrvargas"
+  #- title: "twitter"
+  #  url: "https://twitter.com/"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+    url: "https://github.com/allyrv"
+  #- title: "bitcoin"
+  #  url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+  - title: "instagram"
+    url: "https://www.instagram.com/allyyvv"
 
 ############
 # 404 page #
@@ -185,9 +189,9 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+#keybase-username: johnsmith
+#keybase-in-social: True
+#keybase-in-footer: True
 
 ################################################################################
 

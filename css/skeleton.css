@@ -124,8 +124,10 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  font-family: "'Montserrat", Helvetica, Arial, sans-serif;
+  color: #FFFFFF; 
+  background: #0A091B; }
+
 
 
 /* Typography
@@ -416,3 +418,60 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
+/* Custom Styles 
+–––––––––––––––––––––––––––––––––––––––––––––––––– 
+name: 2.1875rem;
+web dev: 1.75rem;
+summary: 1rem;
+social: 1rem;
+projects: 1rem;
+prject title: 1.5rem;
+blurb: 1rem;
+*/
+
+#name.u-full-width {
+  padding-top: 25%;
+}
+
+.semibold {
+  font-weight: 600;
+  line-height: 1;
+}
+
+#name.semibold {
+  font-size: 4rem;
+}
+
+#social.semibold {
+  padding-top: 35%;
+}
+
+#title.copy {
+  font-size: 3rem;
+}
+
+#summary.copy {
+  font-size: 1.5rem;
+}
+
+#projects.semibold {
+  line-height: 2;
+}
+
+.projecttitle {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+#blurb.copy {
+  line-height: 1;
+  margin-bottom: 3.5rem;
+  font-size: 1.75rem;
+}
+
+.copy {
+  color: #707075;
+  line-height: 1;
+}

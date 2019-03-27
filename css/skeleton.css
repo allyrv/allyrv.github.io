@@ -435,7 +435,7 @@ a.dog {
      );
     background-position: 0 100%;
     background-repeat: repeat-x;
-    background-size: 2px 2px;
+    background-size: 1.5px 1.5px;
   color: #707075;
   text-decoration: none;
   transition: background-size .2s;
@@ -446,6 +446,7 @@ a.dog:hover {
 }
 
 a.projectlink {
+  color: #FFFFFF;
   text-decoration: none;
 }
 

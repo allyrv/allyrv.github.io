@@ -431,6 +431,16 @@ prject title: 1.5rem;
 blurb: 1rem;
 */
 
+a {
+  color: #707075;
+  text-decoration-line: underline;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+
 #name.u-full-width {
   padding-top: 25%;
 }
@@ -444,9 +454,9 @@ blurb: 1rem;
   font-size: 4rem;
 }
 
-#social.semibold {
+/*#social.semibold {
   padding-top: 35%;
-}
+}*/
 
 #title.copy {
   font-size: 3rem;
@@ -454,6 +464,7 @@ blurb: 1rem;
 
 #summary.copy {
   font-size: 1.5rem;
+  line-height: 1.2;
 }
 
 #projects.semibold {
@@ -462,16 +473,20 @@ blurb: 1rem;
 
 .projecttitle {
   margin-bottom: 0.5rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 #blurb.copy {
-  line-height: 1;
+  line-height: 1.2;
   margin-bottom: 3.5rem;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .copy {
   color: #707075;
   line-height: 1;
+}
+
+#sociallinks {
+  padding-bottom: 10%;
 }

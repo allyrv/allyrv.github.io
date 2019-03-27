@@ -440,6 +440,9 @@ a:hover {
   color: #FFFFFF;
 }
 
+img {
+  padding-right: 2%
+}
 
 #name.u-full-width {
   padding-top: 25%;
@@ -489,4 +492,12 @@ a:hover {
 
 #sociallinks {
   padding-bottom: 10%;
+}
+
+.pop:hover{
+  animation: pop 0.5s linear 1;
+}
+
+@keyframes pop{
+  50%  {transform: scale(1.1);}
 }
